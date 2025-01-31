@@ -9,7 +9,7 @@ export default function PhotosPage() {
         <div className="mx-[10%] md:mx-[20%] lg:mx-[30%]">
             <Navigation />
             <div className="space-y-8">
-                <h1 className="text-3xl font-bold text-foreground">Kilmer's Photography</h1>
+                <h1 className="text-3xl font-bold text-foreground">Kilmer Photography</h1>
                 <PhotosSection />
             </div>
             <Footer />

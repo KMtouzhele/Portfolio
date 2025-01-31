@@ -1,6 +1,5 @@
 "use client";
 import EmploymentSection from "@/app/pages/resume/EmploymentSection";
-import Link from "next/link";
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
 export default function ResumePage() {

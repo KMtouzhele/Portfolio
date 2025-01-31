@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
 import Image from "next/image";
+
 export default function EmploymentSection() {
     return (
         <section id="employment" className="mt-12">
@@ -10,10 +10,10 @@ export default function EmploymentSection() {
                 <p className="text-sm text-foreground">Active Work Lab, University of Tasmania, Hobart, Australia</p>
                 <p className="text-sm text-foreground">November 2023 - Present</p>
                 <p className="text-sm text-foreground">Active Work Lab is a research laboratory run by UTAS that focuses on exploring light physical
-                        activities in the workplace to improve employees' physical well-being. I work as a backend
-                        developer for the web application Exertime, which uses Vue.js for the client-side interface and
-                        React.js with AdminJS for the server-side management panel.
-                        </p>
+                    activities in the workplace to improve employees&apos; physical well-being. I work as a backend
+                    developer for the web application Exertime, which uses Vue.js for the client-side interface and
+                    React.js with AdminJS for the server-side management panel.
+                </p>
                 <p className="text-sm text-foreground">
                     My tasks include developing features such as AdminJS resource creation, video uploading
                     and thumbnail generation, role-based access control, as well as conducting solution research
@@ -46,7 +46,7 @@ export default function EmploymentSection() {
                 </p>
                 <p className="text-sm text-foreground">
                     I had close collaboration with the software development team during this time, which
-                    provided me with a basic understanding of user information systems' functionalities and
+                    provided me with a basic understanding of user information systems&apos; functionalities and
                     development. This experience sparked a strong interest in me and led me to decide to resign
                     from my position to return to campus for further studies.
                 </p>
@@ -58,7 +58,7 @@ export default function EmploymentSection() {
                 <p className="text-sm text-foreground">August 2019 - May 2021</p>
                 <p className="text-sm text-foreground">
                     I am immensely grateful for the opportunity to work at AKQA. Because of this job, I was
-                    immersed in an international working environment. I've had the privilege to collaborate with
+                    immersed in an international working environment. I&apos;ve had the privilege to collaborate with
                     people from various nationalities, diverse cultural backgrounds, and different ethnicities,
                     while serving innovative companies such as Officeworks, Colgate, Ford, Lincoln, Louis Vuitton,
                     Amway, and more. During this time, I learned my ability to learn quickly, developed strong
@@ -83,7 +83,6 @@ export default function EmploymentSection() {
             <div className="space-y-2 mb-12">
                 <h3 className="text-lg font-bold text-foreground mb-2">Industrial Designer</h3>
                 <p className="text-sm text-foreground">LOE Design, Shanghai, China</p>
-                <p className="text-sm text-foreground">July 2017 - June 2018</p>
                 <p className="text-sm text-foreground">
                     Designing an easy-to-use and user-friendly approach for the product while also considering
                     product aesthetics and low manufacturing costs.
