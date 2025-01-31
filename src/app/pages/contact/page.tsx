@@ -1,6 +1,7 @@
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function ContactPage() {
     return (
@@ -22,9 +23,9 @@ export default function ContactPage() {
                     <Image src="/icons8-envelope-24.png" alt="email icon" width={24} height={24}></Image>
                     <a href="https://github.com/KMtouzhele" target="_blank" className="text-foreground hover:underline">Kilmerlee94@gmail.com</a>
                 </div>
-
             </div>
             <Footer />
+            <Analytics />
         </div>
     );
 };

@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from "@vercel/analytics/react"
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
 import PhotosSection from "@/app/pages/photos/PhotosSection";
@@ -13,6 +13,7 @@ export default function PhotosPage() {
                 <PhotosSection />
             </div>
             <Footer />
+            <Analytics />
         </div>
     );
 };

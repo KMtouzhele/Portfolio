@@ -2,6 +2,7 @@
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
 import ProjectsSection from "@/app/pages/projects/ProjectsSection";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function ProjectsPage() {
     return (
@@ -12,6 +13,7 @@ export default function ProjectsPage() {
                 <ProjectsSection />
             </div>
             <Footer />
+            <Analytics />
         </div>
     );
 }

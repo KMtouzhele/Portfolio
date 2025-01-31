@@ -2,6 +2,7 @@
 import EmploymentSection from "@/app/pages/resume/EmploymentSection";
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
+import { Analytics } from "@vercel/analytics/react"
 export default function ResumePage() {
     return (
         <div className="mx-12 md:mx-[30%]">
@@ -11,6 +12,7 @@ export default function ResumePage() {
                 <EmploymentSection />
             </div>
             <Footer />
+            <Analytics />
         </div>
     );
 }
