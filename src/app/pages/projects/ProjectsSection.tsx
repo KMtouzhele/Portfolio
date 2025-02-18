@@ -1,6 +1,7 @@
 "use client";
-
-import Image from "next/image";
+import {IoLogoNodejs, IoLogoReact, IoOpenOutline} from "react-icons/io5";
+import { RiPhpFill } from "react-icons/ri";
+import {SiMysql, SiKotlin, SiSwift, SiFlutter} from "react-icons/si";
 
 export default function ProjectsSection() {
     return (
@@ -12,14 +13,14 @@ export default function ProjectsSection() {
                 <p>A web application built with Vite that allows user to check current weather condition by intuitive interactions.</p>
                 <div className="flex space-x-4 items-center">
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/TempMap" target="_blank" className="text-sm text-foreground hover:underline">Github</a>
                     </div>
                 </div>
             </div>
             <p className="text-sm font-bold text-foreground mb-2">Technologies</p>
             <div className="flex items-center mb-12">
-                <Image className="mr-1" src="/icons8-react-96.png" alt="React Icon" width={20} height={20} />
+                <IoLogoReact className="mr-2" size={24} />
                 <span className="text-sm text-foreground mr-4">React.js</span>
             </div>
 
@@ -35,16 +36,16 @@ export default function ProjectsSection() {
                 </ul>
                 <div className="flex space-x-4 items-center">
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/kit514_assignment1" target="_blank" className="text-sm text-foreground hover:underline">Github</a>
                     </div>
                 </div>
             </div>
             <p className="text-sm font-bold text-foreground mb-2">Technologies</p>
             <div className="flex items-center mb-12">
-                <Image className="mr-1" src="/projects/icons8-php-30.png" alt="PHP Icon" width={20} height={20} />
+                <RiPhpFill className="mr-2" size={24}/>
                 <span className="text-sm text-foreground mr-4">PHP</span>
-                <Image className="mr-1" src="/projects/icons8-mysql-50.png" alt="MySQL Icon" width={24} height={24}/>
+                <SiMysql className="mr-2" size={24}/>
                 <span className="text-sm text-foreground mr-4">MySQL</span>
             </div>
 
@@ -55,20 +56,20 @@ export default function ProjectsSection() {
                     matches creating, simulation and leaderboard computing.</p>
                 <div className="flex space-x-4 items-center">
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/teams_api" target="_blank" className="text-sm text-foreground hover:underline">F1 Team Service API</a>
                     </div>
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/timing_api" target="_blank" className="text-sm text-foreground hover:underline">F1 Timing Service API</a>
                     </div>
                 </div>
             </div>
             <p className="text-sm font-bold text-foreground mb-2">Technologies</p>
             <div className="flex items-center mb-12">
-                <Image className="mr-1" src="/icons8-nodejs-32.png" alt="Node.js Icon" width={20} height={20} />
+                <IoLogoNodejs className="mr-2" size={24} />
                 <span className="text-sm text-foreground mr-4">Node.js</span>
-                <Image className="mr-1" src="/projects/icons8-mysql-50.png" alt="MySQL Icon" width={24} height={24}/>
+                <SiMysql className="mr-2" size={24}/>
                 <span className="text-sm text-foreground mr-4">MySQL</span>
             </div>
 
@@ -82,26 +83,26 @@ export default function ProjectsSection() {
                 </p>
                 <div className="flex space-x-4 items-center">
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/CricketScore" target="_blank" className="text-sm text-foreground hover:underline">Kotlin version</a>
                     </div>
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/CricketScore_iOS" target="_blank" className="text-sm text-foreground hover:underline">iOS version</a>
                     </div>
                     <div className="flex items-center space-x-1 opacity-50">
-                        <Image src="/projects/icons8-link-30.png" alt="Link icon" width={20} height={20} />
+                        <IoOpenOutline size={20}/>
                         <a href="https://github.com/KMtouzhele/CricketScoreFlutter" target="_blank" className="text-sm text-foreground hover:underline">Flutter version</a>
                     </div>
                 </div>
             </div>
             <p className="text-sm font-bold text-foreground mb-2">Technologies</p>
             <div className="flex items-center mb-12">
-                <Image className="mr-1" src="/projects/icons8-kotlin-50.png" alt="Kotlin Icon" width={20} height={20} />
+                <SiKotlin className="mr-2" size={16}/>
                 <span className="text-sm text-foreground mr-4">Kotlin</span>
-                <Image className="mr-1" src="/projects/icons8-swift-30.png" alt="Swift Icon" width={24} height={24}/>
+                <SiSwift className="mr-2" size={20} />
                 <span className="text-sm text-foreground mr-4">Swift</span>
-                <Image className="mr-1" src="/projects/icons8-flutter-50.png" alt="Flutter Icon" width={20} height={20} />
+                <SiFlutter className="mr-2" size={20} />
                 <span className="text-sm text-foreground mr-4">Flutter</span>
             </div>
         </section>

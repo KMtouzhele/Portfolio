@@ -1,6 +1,7 @@
 import Navigation from "@/app/ui/Navigation";
 import Footer from "@/app/ui/Footer";
-import Image from "next/image";
+import { IoLogoLinkedin, IoLogoGithub } from "react-icons/io5";
+import { MdAlternateEmail } from "react-icons/md";
 import { Analytics } from "@vercel/analytics/react"
 
 export default function ContactPage() {
@@ -10,17 +11,17 @@ export default function ContactPage() {
             <div className="space-y-8">
                 <h1 className="text-3xl font-bold text-foreground">Contact Kilmer</h1>
                 <div className="flex space-x-1 items-center">
-                    <Image src="/icons8-linkedin-50.png" alt="lindedin icon" width={24} height={24}></Image>
+                    <IoLogoLinkedin size={24}/>
                     <a href="https://www.linkedin.com/in/kaimo-li-8651b391/" target="_blank" className="text-foreground hover:underline">Kilmer LinkedIn</a>
                 </div>
 
                 <div className="flex space-x-1 items-center">
-                    <Image src="/projects/icons8-github-30.png" alt="github icon" width={24} height={24}></Image>
+                    <IoLogoGithub size={24}/>
                     <a href="https://github.com/KMtouzhele" target="_blank" className="text-foreground hover:underline">KMtouzhele</a>
                 </div>
 
                 <div className="flex space-x-1 items-center">
-                    <Image src="/icons8-envelope-24.png" alt="email icon" width={24} height={24}></Image>
+                    <MdAlternateEmail size={24}/>
                     <a href="https://github.com/KMtouzhele" target="_blank" className="text-foreground hover:underline">Kilmerlee94@gmail.com</a>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 
 export default function EmploymentSection() {
     return (
@@ -24,9 +25,9 @@ export default function EmploymentSection() {
             </div>
             <p className="text-sm font-bold text-foreground mb-2">Technologies</p>
             <div className="flex items-center mb-12">
-                <Image className="mr-2" src="/icons8-react-96.png" alt="React Icon" width={24} height={24} />
+                <IoLogoReact className="mr-2" size={24} />
                 <span className="text-sm text-foreground mr-4">React</span>
-                <Image className="mr-2" src="/icons8-nodejs-32.png" alt="Node.js Icon" width={24} height={24}/>
+                <IoLogoNodejs className="mr-2" size={24} />
                 <span className="text-sm text-foreground mr-4">Node.js</span>
                 <Image className="mr-2" src="/adminjs.png" alt="AdminJS Icon" width={24} height={24} />
                 <span className="text-sm text-foreground mr-4">AdminJS</span>
